@@ -3,13 +3,13 @@ Example using [MinIO](https://min.io/) as Amazon S3 Object Storage, [tusd](https
 
 1. Start the services
 ```
-$ docker-compose up -d
+$ docker compose up -d
 ```
 
 2. Open http://127.0.0.1:9000 in the browser
 ![1.jpg](images/1.jpg)
 
-3. Login with the default credentials that are in the ```docker-compose.yaml``` file
+3. Login with the default credentials (minioadmin/minioadmin) that are in the ```docker-compose.yaml``` file
 ![2.jpg](images/2.jpg)
 
 4. Create a bucket called ```mybucket```
